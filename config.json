@@ -1,0 +1,41 @@
+{
+  "properties": {
+    "study_id": {
+      "minLength": 2600,
+      "maxLength": 2600
+    },
+    "sequence": {
+      "minimum": 2900
+    },
+    "block_properties": {
+      "properties": {
+        "question": {
+          "minLength": 1800,
+          "maxLength": 1800
+        },
+        "description": {
+          "minLength": 24000,
+          "maxLength": 24000
+        },
+        "new_prop": {
+          "minItems": 5
+        },
+        "options": {
+          "items": {
+            "properties": {
+              "option": {
+                "minLength": 9900,
+                "maxLength": 9900
+              },
+              "color":{
+                "minLength": 13
+              }
+            }
+          },
+          "minItems": 800,
+          "maxItems": 800
+        }
+      }
+    }
+  }
+}
